@@ -13,10 +13,12 @@ import { TaskItemComponent } from './components/task-item/task-item.component';
 import { AddTaskComponent } from './components/add-task/add-task.component';
 import { AboutComponent } from './components/about/about.component';
 import { FooterComponent } from './components/footer/footer.component';
+import { BootcampComponent } from './components/bootcamp/bootcamp.component';
 
 const appRoutes: Routes = [
   { path: '', component: TasksComponent },
-  { path: 'about', component: AboutComponent }
+  { path: 'about', component: AboutComponent },
+  { path: 'bootcamp', component: BootcampComponent }
 ]
 @NgModule({
   declarations: [
@@ -27,7 +29,8 @@ const appRoutes: Routes = [
     TaskItemComponent,
     AddTaskComponent,
     AboutComponent,
-    FooterComponent
+    FooterComponent,
+    BootcampComponent
   ],
   imports: [
     BrowserModule,
