@@ -1,0 +1,13 @@
+{
+  "users": [
+    {
+      "name": "Wilson",
+      "email": "email",
+      "phone": "2222222222",
+      "topic": "React",
+      "timePreference": "evening",
+      "subscribe": false,
+      "id": 1
+    }
+  ]
+}
